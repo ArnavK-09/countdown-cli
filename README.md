@@ -4,7 +4,9 @@
     <img alt="hero" width="450" src="https://fav.farm/⏰" />
 </p>
 
-> [!NOTE] > **countdown_terminal** is a terminal-based countdown timer app built with Rust, featuring real-time progress visualization and customizable countdown times.
+> [!NOTE] 
+>
+> **countdown_terminal** is a terminal-based countdown timer app built with Rust, featuring real-time progress visualization and customizable countdown times.
 
 ## 🌟 Features
 
