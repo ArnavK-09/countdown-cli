@@ -14,7 +14,7 @@ function getExecutablePath() {
 
   try {
     return require.resolve(
-      `rust_cli_for_npx-${os}-${arch}/bin/rust_cli_for_npx${extension}`,
+      `rust_cli_for_npx-${os}-${arch}/bin/countdown_terminal${extension}`,
     );
   } catch {
     throw new Error(

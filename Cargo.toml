@@ -1,5 +1,5 @@
 [package]
-name = "rust_cli_for_npx"
+name = "countdown_terminal"
 version = "0.0.1"
 edition = "2021"
 

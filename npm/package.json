@@ -1,7 +1,7 @@
 {
-  "name": "rust_cli_for_npx",
-  "version": "0.1.5",
-  "description": "🧗‍♀️ Help you create & publish NPM CLIs with Rust.....",
+  "name": "countdown_terminal",
+  "version": "0.0.1",
+  "description": "⏰ A terminal countdown timer app in Rust...",
   "keywords": [
     "rust",
     "cli",
@@ -21,11 +21,11 @@
     "dev": "node index.js"
   },
   "optionalDependencies": {
-    "rust_cli_for_npx-linux-x64": "0.1.5",
-    "rust_cli_for_npx-linux-arm64": "0.1.5",
-    "rust_cli_for_npx-darwin-x64": "0.1.5",
-    "rust_cli_for_npx-darwin-arm64": "0.1.5",
-    "rust_cli_for_npx-windows-x64": "0.1.5",
-    "rust_cli_for_npx-windows-arm64": "0.1.5"
+    "countdown_terminal-linux-x64": "0.1.5",
+    "countdown_terminal-linux-arm64": "0.1.5",
+    "countdown_terminal-darwin-x64": "0.1.5",
+    "countdown_terminal-darwin-arm64": "0.1.5",
+    "countdown_terminal-windows-x64": "0.1.5",
+    "countdown_terminal-windows-arm64": "0.1.5"
   }
 }
