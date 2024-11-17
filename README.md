@@ -1,70 +1,126 @@
-# ⏰ countdown_terminal
+<h1 align="center">⏰ countdown_terminal ⏰</h1>
 
-A terminal-based countdown timer application built with **ratatui** and **Rust**, featuring a customizable countdown time, progress bar, and keyboard shortcuts for user interaction.
+<p align="center">
+    <img alt="hero" width="450" src="https://fav.farm/⏰" />
+</p>
 
-## Features
+> [!NOTE] > **countdown_terminal** is a terminal-based countdown timer app built with Rust, featuring real-time progress visualization and customizable countdown times.
 
-- **Customizable Countdown Time:** Set the countdown duration from command line arguments (e.g., `60s` for 60 seconds, `1m` for 1 minute).
-- **Progress Visualization:** See the countdown progress in real-time with a dynamic progress bar.
-- **Keyboard Shortcuts:** Use `Esc` or `Ctrl+C` to stop the countdown.
-- **Responsive TUI:** Interactive terminal UI with real-time updates.
+## 🌟 Features
 
-## Screenshots
+> **countdown_terminal** features:
 
-> Include a screenshot of the app here.
+- **Customizable Countdown Time** – Set the countdown in hours, minutes, or seconds.
+- **Progress Visualization** – Visualize progress in a terminal-friendly gauge.
+- **Terminal UI** – Built with Ratatui, offering a modern terminal UI experience.
 
-## Usage
+## 🛠 Installation
+
+> You can add **countdown_terminal** with one command via:
 
 ###### terminal
 
 ```bash
-npx countdown-terminal 60s
+# Command for Installation
+npx countdown_terminal
 ```
 
-## Locally Build and Run
+---
 
-First, build the project using Cargo:
+## 🐍 Cloning and Building Locally
+
+> To clone and build the project locally, follow these steps:
+
+1. **Clone the repository:**
+
+###### terminal
 
 ```bash
-cargo build --release
+git clone https://github.com/ArnavK-09/countdown_terminal.git
+cd countdown-app
 ```
 
-Then, run the app with:
+2. **Build the application:**
+
+###### terminal
+
+```bash
+cargo build
+```
+
+3. **Run the application:**
+
+###### terminal
 
 ```bash
 cargo run
 ```
 
-You can specify the countdown time as a command line argument, such as:
+## 💻 Contributing
 
-```bash
-cargo run 1m  # Set a countdown of 1 minute
-```
+> [!TIP]  
+> We welcome contributions to improve **countdown_terminal**! If you have suggestions, bug fixes, or new feature ideas, follow these steps:
 
-### Default Countdown Time
+1. **Fork the Repository**  
+   Click the **Fork** button at the top-right of the repo page.
 
-If no argument is provided, the app defaults to a 60-second countdown.
+2. **Clone Your Fork**  
+   Clone the repo locally:
 
-## Keybindings
+   ```bash
+   git clone https://github.com/ArnavK-09/countdown_terminal.git
+   ```
 
-- **Start Countdown:** Simply run the application and the countdown begins automatically.
-- **Stop Countdown:** Press `Esc` or `Ctrl+C` to stop the countdown and exit the app.
+3. **Create a Branch**  
+   Create a new branch for your changes:
 
-## Key Features
+   ```bash
+   git checkout -b your-feature-branch
+   ```
 
-- **Command-Line Arguments:**
-  - You can provide the countdown time as an argument (e.g., `60s`, `1m`, `1h`).
-- **Dynamic Progress Bar:** A progress bar updates in real-time as the countdown progresses.
-- **Keyboard Shortcuts:**
-  - `Esc` or `Ctrl+C` to exit the countdown.
+4. **Make Changes**  
+   Implement your changes (bug fixes, features, etc.).
 
-### Contributing
+5. **Commit and Push**  
+   Commit your changes and push the branch:
 
-We welcome contributions! If you'd like to contribute to the project, follow these steps:
+   ```bash
+   git commit -m "Description of changes"
+   git push origin your-feature-branch
+   ```
 
-1. Fork the repository.
-2. Clone your forked repository.
-3. Create a new branch for your feature or bug fix.
-4. Commit your changes.
-5. Push your changes to your fork.
-6. Open a pull request to the main repository.
+6. **Open a Pull Request**  
+   Open a PR with a detailed description of your changes.
+
+7. **Collaborate and Merge**  
+   The maintainers will review your PR, request changes if needed, and merge it once approved.
+
+## 🙋‍♂️ Issues
+
+Found a bug or need help? Please create an issue on the [GitHub repository](https://github.com/ArnavK-09/countdown_terminal/issues) with a detailed description.
+
+## 👤 Author
+
+<table>
+  <tbody>
+    <tr>
+        <td align="center" valign="top" width="100%"><a href="https://github.com/ArnavK-09"><img src="https://github.com/ArnavK-09.png?s=100" width="100px;" alt="Arnav K"/><br /><sub><b>Arnav K</b></sub></a></td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+<h2 align="center">📄 License</h2>
+
+<p align="center">
+<strong>countdown_terminal</strong> is licensed under the <code>Unlicense</code> License. See the <a href="https://github.com/ArnavK-09/countdown_terminal/blob/main/LICENSE">LICENSE</a> file for more details.
+</p>
+
+---
+
+<h3 align="center">💖 Thanks for Using countdown_terminal!</h3>
+
+<p align="center">
+    <strong>If you find this project helpful, please give it a ⭐ on GitHub!</strong>
+</p>
