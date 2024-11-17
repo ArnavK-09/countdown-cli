@@ -83,7 +83,7 @@ jobs:
         run: |
           npm help
           cd npm
-          bin="rust_cli_for_npx"
+          bin="countdown_terminal"
           node_os=$(echo "${{ matrix.build.NAME }}" | cut -d '-' -f1)
           export node_os
           node_arch=$(echo "${{ matrix.build.NAME }}" | cut -d '-' -f2)
