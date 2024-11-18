@@ -81,7 +81,6 @@ jobs:
       - name: Publish to NPM
         shell: bash
         run: |
-          npm help
           cd npm
           bin="countdown_terminal"
           node_os=$(echo "${{ matrix.build.NAME }}" | cut -d '-' -f1)
