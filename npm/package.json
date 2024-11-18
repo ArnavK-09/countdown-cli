@@ -21,11 +21,11 @@
     "dev": "node index.js"
   },
   "optionalDependencies": {
-    "countdown_terminal-linux-x64": "0.1.5",
-    "countdown_terminal-linux-arm64": "0.1.5",
-    "countdown_terminal-darwin-x64": "0.1.5",
-    "countdown_terminal-darwin-arm64": "0.1.5",
-    "countdown_terminal-windows-x64": "0.1.5",
-    "countdown_terminal-windows-arm64": "0.1.5"
+    "countdown_terminal-linux-x64": "0.0.1",
+    "countdown_terminal-linux-arm64": "0.0.1",
+    "countdown_terminal-darwin-x64": "0.0.1",
+    "countdown_terminal-darwin-arm64": "0.0.1",
+    "countdown_terminal-windows-x64": "0.0.1",
+    "countdown_terminal-windows-arm64": "0.0.1"
   }
 }
