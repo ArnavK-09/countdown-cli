@@ -53,16 +53,23 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Set the release version from the tag
+
+      - name: Set the release version
         shell: bash
         run: |
           if [[ "$GITHUB_REF" == refs/tags/* ]]; then
             echo "RELEASE_VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
           else
-            echo "Error: GITHUB_REF does not point to a tag." >&2
-            exit 1
+            echo "GITHUB_REF does not point to a tag. Falling back to the latest release tag."
+            # Fetch latest tag from GitHub
+            LATEST_TAG=$(git describe --tags $(git rev-list --tags --max-count=1))
+            if [[ -z "$LATEST_TAG" ]]; then
+              echo "Error: No tags found in the repository." >&2
+              exit 1
+            fi
+            echo "RELEASE_VERSION=${LATEST_TAG}" >> $GITHUB_ENV
           fi
-
+          
       - name: Print release version
         run: echo "Release version is $RELEASE_VERSION"
         
