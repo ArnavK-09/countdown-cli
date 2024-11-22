@@ -112,7 +112,7 @@ jobs:
           fi
           mkdir -p "${node_pkg}/bin"
           envsubst < package.tmpl > "${node_pkg}/package.json"
-          cp "README.md" "${node_pkg}/README.md"
+          cp "../README.md" "${node_pkg}/README.md"
           # note: windows binaries has '.exe' extension
           if [ "${{ matrix.build.OS }}" = "windows-2022" ]; then
             bin="${bin}.exe"
