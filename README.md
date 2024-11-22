@@ -1,7 +1,7 @@
 <h1 align="center">⏰ countdown_terminal ⏰</h1>
 
 <p align="center">
-    <img alt="hero" width="450" src="https://fav.farm/⏰" />
+    <img alt="hero" width="450" src="https://emoji-route.deno.dev/gif/⏰" />
 </p>
 
 > [!NOTE] 
