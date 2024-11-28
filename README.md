@@ -39,7 +39,7 @@ npx countdown_terminal [duration]
 
 ```bash
 git clone https://github.com/ArnavK-09/countdown_terminal.git
-cd countdown-app
+cd countdown_terminal
 ```
 
 2. **Build the application:**
