@@ -24,7 +24,7 @@
 
 ```bash
 # Command for Installation
-npx countdown_terminal
+npx countdown_terminal [duration]
 ```
 
 ---
